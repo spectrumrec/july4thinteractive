@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ccf7408ba703cea04479406df6abcdb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ccf7408ba703cea04479406df6abcdb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ccf7408ba703cea04479406df6abcdb = L.map(
+                "map_8ccf7408ba703cea04479406df6abcdb",
+                {
+                    center: [41.7, -71.4],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cfe2b3fab7522aeab55a5562f5d2e874 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8ccf7408ba703cea04479406df6abcdb);
+        
+    
+            var marker_cluster_03a6288121bd641b1b32ba1c35767549 = L.markerClusterGroup(
+                {}
+            );
+            map_8ccf7408ba703cea04479406df6abcdb.addLayer(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+            var marker_af65b34ca829bf0081f54e690cbf0b91 = L.marker(
+                [41.181, -71.5584],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_7e6c607cc659393af54f1ded1a3a4a67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dece44de20118c339910f3f846766ab = $(`<div id="html_8dece44de20118c339910f3f846766ab" style="width: 100.0%; height: 100.0%;">Block Island - Fireworks on July 1 at Dusk</div>`)[0];
+            popup_7e6c607cc659393af54f1ded1a3a4a67.setContent(html_8dece44de20118c339910f3f846766ab);
+        
+
+        marker_af65b34ca829bf0081f54e690cbf0b91.bindPopup(popup_7e6c607cc659393af54f1ded1a3a4a67)
+        ;
+
+        
+    
+    
+            marker_af65b34ca829bf0081f54e690cbf0b91.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30e051a14cc99ad9ba9f86294fc3b6b1 = L.marker(
+                [41.8236, -71.4124],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_d393f9a45cb99e9faf819dc669d87eba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3acd8c9cad385cd4ad2be8e5a65a01f7 = $(`<div id="html_3acd8c9cad385cd4ad2be8e5a65a01f7" style="width: 100.0%; height: 100.0%;">Providence - Concert + Fireworks on July 2 at 5:30 PM–9 PM</div>`)[0];
+            popup_d393f9a45cb99e9faf819dc669d87eba.setContent(html_3acd8c9cad385cd4ad2be8e5a65a01f7);
+        
+
+        marker_30e051a14cc99ad9ba9f86294fc3b6b1.bindPopup(popup_d393f9a45cb99e9faf819dc669d87eba)
+        ;
+
+        
+    
+    
+            marker_30e051a14cc99ad9ba9f86294fc3b6b1.bindTooltip(
+                `<div>
+                     Concert + Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e19a882556d48d875d8a1e44fd12d50 = L.marker(
+                [41.6771, -71.2662],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_0f67785d457e0e58388d9f9e16ab03a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fd302cebb996fd025e85d098bb203ef = $(`<div id="html_7fd302cebb996fd025e85d098bb203ef" style="width: 100.0%; height: 100.0%;">Bristol - Fireworks on July 3 at 9:30 PM</div>`)[0];
+            popup_0f67785d457e0e58388d9f9e16ab03a9.setContent(html_7fd302cebb996fd025e85d098bb203ef);
+        
+
+        marker_6e19a882556d48d875d8a1e44fd12d50.bindPopup(popup_0f67785d457e0e58388d9f9e16ab03a9)
+        ;
+
+        
+    
+    
+            marker_6e19a882556d48d875d8a1e44fd12d50.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a8dd9b41842235a53fb4850d1e8b125 = L.marker(
+                [41.8137, -71.3701],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_4886cf4481644f9f16935310877e8a87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83dcb9c637a25de635e8381bf90f6c92 = $(`<div id="html_83dcb9c637a25de635e8381bf90f6c92" style="width: 100.0%; height: 100.0%;">East Providence - Fireworks on July 3 at Dusk</div>`)[0];
+            popup_4886cf4481644f9f16935310877e8a87.setContent(html_83dcb9c637a25de635e8381bf90f6c92);
+        
+
+        marker_2a8dd9b41842235a53fb4850d1e8b125.bindPopup(popup_4886cf4481644f9f16935310877e8a87)
+        ;
+
+        
+    
+    
+            marker_2a8dd9b41842235a53fb4850d1e8b125.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a54233c7796f7edf162ed6dcf5da554 = L.marker(
+                [41.4501, -71.4495],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_d1a15c71e548ae6ba194783fead7e534 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41d32933f51455f160d9afe4c07556aa = $(`<div id="html_41d32933f51455f160d9afe4c07556aa" style="width: 100.0%; height: 100.0%;">Narragansett - Fireworks on July 3 at Dusk</div>`)[0];
+            popup_d1a15c71e548ae6ba194783fead7e534.setContent(html_41d32933f51455f160d9afe4c07556aa);
+        
+
+        marker_0a54233c7796f7edf162ed6dcf5da554.bindPopup(popup_d1a15c71e548ae6ba194783fead7e534)
+        ;
+
+        
+    
+    
+            marker_0a54233c7796f7edf162ed6dcf5da554.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_951c73c8f2d8b1d0e3168d43ee1fb5d5 = L.marker(
+                [41.5501, -71.4665],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_371419c8be38423d973978e4f375a583 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_805f34b09f55d963b3a314516843ab7b = $(`<div id="html_805f34b09f55d963b3a314516843ab7b" style="width: 100.0%; height: 100.0%;">North Kingstown - Concert + Fireworks on July 3 at Evening</div>`)[0];
+            popup_371419c8be38423d973978e4f375a583.setContent(html_805f34b09f55d963b3a314516843ab7b);
+        
+
+        marker_951c73c8f2d8b1d0e3168d43ee1fb5d5.bindPopup(popup_371419c8be38423d973978e4f375a583)
+        ;
+
+        
+    
+    
+            marker_951c73c8f2d8b1d0e3168d43ee1fb5d5.bindTooltip(
+                `<div>
+                     Concert + Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1218dc25f2073464fc338eece697aaad = L.marker(
+                [41.8495, -71.462],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_92a5c865bc6a5ea2ecc7a9cd298b5584 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0d493862dce6733e2021b54856c7bf8 = $(`<div id="html_a0d493862dce6733e2021b54856c7bf8" style="width: 100.0%; height: 100.0%;">North Providence - Fireworks on July 3 at 9 PM</div>`)[0];
+            popup_92a5c865bc6a5ea2ecc7a9cd298b5584.setContent(html_a0d493862dce6733e2021b54856c7bf8);
+        
+
+        marker_1218dc25f2073464fc338eece697aaad.bindPopup(popup_92a5c865bc6a5ea2ecc7a9cd298b5584)
+        ;
+
+        
+    
+    
+            marker_1218dc25f2073464fc338eece697aaad.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7143df15f1797f7445a5a6c96ad0fba2 = L.marker(
+                [41.7881, -71.6162],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_5560cdda37d1fdd81b5dc143087b59d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05a4016d375a2051ea9d0d5daa8c4415 = $(`<div id="html_05a4016d375a2051ea9d0d5daa8c4415" style="width: 100.0%; height: 100.0%;">Scituate - Fireworks on July 3 at Dusk</div>`)[0];
+            popup_5560cdda37d1fdd81b5dc143087b59d7.setContent(html_05a4016d375a2051ea9d0d5daa8c4415);
+        
+
+        marker_7143df15f1797f7445a5a6c96ad0fba2.bindPopup(popup_5560cdda37d1fdd81b5dc143087b59d7)
+        ;
+
+        
+    
+    
+            marker_7143df15f1797f7445a5a6c96ad0fba2.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d1c2acafbd7138ae8590ad7615f2bc6 = L.marker(
+                [41.7001, -71.4162],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_e5e372433297a42f4fe5992e9e160383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a531aba401e95f66b92694240d6a1282 = $(`<div id="html_a531aba401e95f66b92694240d6a1282" style="width: 100.0%; height: 100.0%;">Warwick - Fireworks on July 3 at 9 PM</div>`)[0];
+            popup_e5e372433297a42f4fe5992e9e160383.setContent(html_a531aba401e95f66b92694240d6a1282);
+        
+
+        marker_8d1c2acafbd7138ae8590ad7615f2bc6.bindPopup(popup_e5e372433297a42f4fe5992e9e160383)
+        ;
+
+        
+    
+    
+            marker_8d1c2acafbd7138ae8590ad7615f2bc6.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fcd04eee0b3ec98739b1dcd7982424c = L.marker(
+                [41.6771, -71.2662],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_b273ac6254e38481a2c6633d0346ea33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6f597cec7d1a32cd6677a99b7ea0c09 = $(`<div id="html_b6f597cec7d1a32cd6677a99b7ea0c09" style="width: 100.0%; height: 100.0%;">Bristol - Parade on July 4 at 10:30 AM</div>`)[0];
+            popup_b273ac6254e38481a2c6633d0346ea33.setContent(html_b6f597cec7d1a32cd6677a99b7ea0c09);
+        
+
+        marker_4fcd04eee0b3ec98739b1dcd7982424c.bindPopup(popup_b273ac6254e38481a2c6633d0346ea33)
+        ;
+
+        
+    
+    
+            marker_4fcd04eee0b3ec98739b1dcd7982424c.bindTooltip(
+                `<div>
+                     Parade
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22ba67c00145888b80e95714791dfd2a = L.marker(
+                [41.8787, -71.3826],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_6ee85829f3badeb2800fe2b3f0718984 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2cb8d2d9188f1277be011e4694b820f = $(`<div id="html_e2cb8d2d9188f1277be011e4694b820f" style="width: 100.0%; height: 100.0%;">Pawtucket - Fireworks on July 5 at 7:30 PM</div>`)[0];
+            popup_6ee85829f3badeb2800fe2b3f0718984.setContent(html_e2cb8d2d9188f1277be011e4694b820f);
+        
+
+        marker_22ba67c00145888b80e95714791dfd2a.bindPopup(popup_6ee85829f3badeb2800fe2b3f0718984)
+        ;
+
+        
+    
+    
+            marker_22ba67c00145888b80e95714791dfd2a.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbee640aebb6986fd5a5442799e2ee0e = L.marker(
+                [41.6023, -71.2474],
+                {}
+            ).addTo(marker_cluster_03a6288121bd641b1b32ba1c35767549);
+        
+    
+        var popup_1d1eba4d47e64f6740865ea92f41c753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_710b503ef54a1d9e1d264b20b6b76806 = $(`<div id="html_710b503ef54a1d9e1d264b20b6b76806" style="width: 100.0%; height: 100.0%;">Portsmouth - Fireworks on July 5 at 9:15 PM</div>`)[0];
+            popup_1d1eba4d47e64f6740865ea92f41c753.setContent(html_710b503ef54a1d9e1d264b20b6b76806);
+        
+
+        marker_cbee640aebb6986fd5a5442799e2ee0e.bindPopup(popup_1d1eba4d47e64f6740865ea92f41c753)
+        ;
+
+        
+    
+    
+            marker_cbee640aebb6986fd5a5442799e2ee0e.bindTooltip(
+                `<div>
+                     Fireworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
